@@ -1,0 +1,8 @@
+System.out.println("Closing connections..."); 
+      if (s != null) 
+        s.getTopicHelper().closeConnections(); 
+      System.out.println("Connections closed"); 
+    } 
+    catch (Exception e) 
+    { 
+      e.printStackTrace(); 
