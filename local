@@ -1,0 +1,7 @@
+#!/bin/bash 
+ 
+# Set the following properties for your environment 
+CDS_HOME="/usr/local/cdshome" 
+CDS_DEPL_NAME="cds" 
+JAVA_HOME="/usr/j2se" 
+ 
