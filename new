@@ -1,0 +1,5 @@
+try { 
+			proxy = new SampleExternalProxy(); 
+		} catch (Exception ex) { 
+			System.out.println("Fatal Error " + ex.toString()); 
+			throw new com.sun.content.server.service.security.util.UserProfileResourceExcep
