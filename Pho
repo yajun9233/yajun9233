@@ -1,0 +1,10 @@
+ setCountry(country); 
+        setEmail(email); 
+        setPhone(phone); 
+        setFixedPhone(phone); 
+         
+        // It is safe to check the activation date and use current date if null 
+        if ( actdate == null ) { 
+            setCreateDate(new Date()); 
+            setActivateDate(new Date()); 
+        } 
