@@ -1,0 +1,8 @@
+fInfo = new Hashtable(); 
+ 
+        setLoginId(uid); 
+        setPassword(pwd); 
+        setFirstName(fname); 
+        setLastName(lname); 
+        setMiddleName(mname); 
+        setGender(gender
